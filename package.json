@@ -1,0 +1,15 @@
+{
+	"name": "timeslice",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Build a video by slicing the (x, y, t) volume of an input video with a moving tilted plane",
+	"scripts": {
+		"start": "tsx timeslice.ts",
+		"check": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@types/node": "^22.0.0",
+		"tsx": "^4.0.0",
+		"typescript": "^5.0.0"
+	}
+}
